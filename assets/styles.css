@@ -248,11 +248,11 @@ hr {
   }
 
   .contact-email {
-    font-size: 30px;
+    font-size:27px;
   }
 
   .contact-phone {
-    font-size: 30px;
+    font-size: 33px;
   }
 
     .subsection {
@@ -261,20 +261,35 @@ hr {
     #desc {
       font-size: 14px;
     }
+
+    .fancy-badge {
+    font-size: 100px;
+    }
+
+    .cv-version {
+      font-size: 50px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
   .name {
-    font-size: 80px;
+    font-size: 85px;
   }
 
   .subsection {
     font-size: 60px;
   }
+
+  .cv-version {
+    font-size: 60px;
+  }
+
 }
 
 
-.name {
+
+
+.cv-version, .name, .contact-phone, .contact-email {
   font-weight: bolder;
 }
 
